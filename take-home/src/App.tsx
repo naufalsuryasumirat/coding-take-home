@@ -1,5 +1,4 @@
 import { fetchData } from './middleware/middleware.ts'
-import './App.css'
 
 function App() {
 
