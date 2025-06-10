@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# notes-and-stuff
+notes/*
+
+# originui
+src/components/ui/*
+!src/components/ui/accordion.tsx
+!src/components/ui/select.tsx
+!src/components/ui/button.tsx
+!src/components/ui/checkbox.tsx
+!src/components/ui/label.tsx
+!src/components/ui/pagination.tsx
+!src/components/ui/table.tsx
+
+src/hooks/*
+!src/hooks/use-pagination.tsx
